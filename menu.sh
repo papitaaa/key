@@ -1,9 +1,9 @@
 #!/bin/bash
 
 while true; do
-    echo "=============================="
+    echo "              |               "
     echo "            Menu              "
-    echo "=============================="
+    echo "------------------------------------"
     echo "1. Symmetric AES (password)"
     echo "2. Symmetric AES (random key + IV)"
     echo "3. Symmetric AES (random key, no IV)"
@@ -14,7 +14,7 @@ while true; do
     echo "8. RSA Sign and Verify"
     echo "9. DSA Sign and Verify"
     echo "0. Exit"
-    echo "=============================="
+    echo "-------------------------------------"
     read -p "select: " choice
 
     case $choice in
